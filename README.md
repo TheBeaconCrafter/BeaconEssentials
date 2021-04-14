@@ -21,11 +21,18 @@ Bei ncht vorhandenem Komando wird eine neue Nachricht ausgegeben (Nicht: Command
 
 Außerdem das Highlight: Du kannst Spielern einen Anzeigenamen festlegen, indem du ihnen eine bestimmte Berechtigung gibst!
 ## Berechtigungen:
-- beacon.beaconessentials.fly | Berechtigung zum fliegen
-- beacon.beaconessentials.time | Berechtigung, die Zeit umzustellen
-- beacon.beaconessentials.gamemode | Berechtigung, den /gm command zu nutzen
-- beacon.beaconessentials.heal | Du ka
-- 
+- beacon.beaconessentials.fly               | Berechtigung zum fliegen
+- beacon.beaconessentials.time              | Berechtigung, die Zeit umzustellen
+- beacon.beaconessentials.gamemode          | Berechtigung, den /gm command zu nutzen
+- beacon.beaconessentials.heal              | Du kannst dich und andere heilen
+- beacon.beaconessentials.feed              | Du kannst dich und andere sättigen
+
+## Rangberechtigungen:
+- beacon.beaconessentials.rang.owner        | Du erhältst den Owner-Rang in der Tabliste und im Chat
+- beacon.beaconessentials.rang.admin        | Du erhältst den Admin-Rang in der Tabliste und im Chat
+- beacon.beaconessentials.rang.vip          | Du erhältst den VIP-Rang in der Tabliste und im Chat
+- beacon.beaconessentials.rang.vipplus      | Du erhältst den VIP+-Rang in der Tabliste und im Chat
+- beacon.beaconessentials.rang.spieler      | Du erhältst den Spieler-Rang in der Tabliste und im Chat. 
 
 ## Todolist:
 - /sun
@@ -39,3 +46,6 @@ Außerdem das Highlight: Du kannst Spielern einen Anzeigenamen festlegen, indem 
 - config.yml
 - raenge.yml
 - languages.yml
+
+
+***Es ist dir nicht erlaubt, dieses Plugin als deines auszugeben, es als deines zu verkaufen oder es zu vermarkten!***      
