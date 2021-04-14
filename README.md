@@ -1,8 +1,8 @@
 # BeaconEssentials
-## Minecraft Bukkit (1.16) Plugin, dass dir viel Arbeit abnimmt!
+## Minecraft Spigot (1.16) Plugin, dass dir viel Arbeit abnimmt!
 Dieses Plugin wird stetig weiter entwickelt, ich bitte also um Feedback!
 
-##Enthaltene Befehle:
+## Enthaltene Befehle:
 /fly
 /fly <Spielername>
 /feed
@@ -15,3 +15,6 @@ Dieses Plugin wird stetig weiter entwickelt, ich bitte also um Feedback!
 /night [Alias: /nacht]  
 /midnight [Alias: /mitternacht]  
 /noon [Alias: /mittag]  
+  
+## Weitere Features:
+Bei ncht vorhandenem Komando wird eine neue Nachricht ausgegeben (Nicht: Command not existing)
