@@ -1,4 +1,4 @@
-# [✯] BeaconEssentials [✯]
+# ✪ BeaconEssentials ✪
 ## Minecraft Spigot (1.16) Plugin, dass dir viel Arbeit abnimmt!
 Dieses Plugin wird stetig weiter entwickelt, ich bitte also um Feedback!
 Plugin Download auf SpigotMC: https://www.spigotmc.org/resources/%E2%9C%AF-beaconessentials-%E2%9C%AF.91293/
