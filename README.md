@@ -5,26 +5,26 @@ Dieses Plugin wird stetig weiter entwickelt, ich bitte also um Feedback!
 ***NEUES UPDATE!***
 
 ## Enthaltene Befehle:
-/beaconessentials			    | Hauptkomando
-/fly					    | Lässt dich fliegen (im Survivalmodus)
+/beaconessentials			      | Hauptkomando
+/fly					              | Lässt dich fliegen (im Survivalmodus)
 /fly <Spielername>			    | Lässt einen anderen Spieler fliegen
-/feed					    | Sättigt dich 
+/feed					              | Sättigt dich 
 /feed <Spielername>			    | Sättigt einen anderen Spieler
-/heal					    | Heilt dich
+/heal					              | Heilt dich
 /heal <Spielername>			    | Heilt einen anderen Spieler
-/gm <0|1|2|3>  				    | Setzt deinen Spielmodus
-/gm <0|1|2|3> <Spielername>  		    | Setzt den Spielmodus eines anderen Spielers
-/enderchest [Alias: /ec]		    | Öffnet deine Endertruhe
-/workbench [Alias: /wb]			    | Öffnet eine Werkbank
-/enchantingtable [Alias: /ench]		    | Öffnet einen Verzauberungstisch
-/day [Alias: /tag]  			    | Setzt die Zeit auf Tag
-/night [Alias: /nacht]  		    | Setzt die Zeit auf Nacht
-/midnight [Alias: /mitternacht]  	    | Setzt die Zeit auf Mitternacht
-/noon [Alias: /mittag]			    | Setzt die Zeit auf Mittag
-/sun [Alias: /sonne]			    | Stellt das Wetter auf Sonnig
-/rain [Alias: /regen]			    | Stellt das Wetter auf Regen
-/storm [Alias: /sturm]			    | Stellt das Wetter auf Sturm
-/vanish [Alias: /v]  			    | Macht dich unsichtbar für normale Spieler
+/gm <0|1|2|3>  				      | Setzt deinen Spielmodus
+/gm <0|1|2|3> <Spielername> | Setzt den Spielmodus eines anderen Spielers
+/enderchest [Alias: /ec]		| Öffnet deine Endertruhe
+/workbench [Alias: /wb]			| Öffnet eine Werkbank
+/enchantingtable [Alias: /ench]	| Öffnet einen Verzauberungstisch
+/day [Alias: /tag]  			  | Setzt die Zeit auf Tag
+/night [Alias: /nacht]  		| Setzt die Zeit auf Nacht
+/midnight [Alias: /mitternacht] | Setzt die Zeit auf Mitternacht
+/noon [Alias: /mittag]			| Setzt die Zeit auf Mittag
+/sun [Alias: /sonne]			  | Stellt das Wetter auf Sonnig
+/rain [Alias: /regen]			  | Stellt das Wetter auf Regen
+/storm [Alias: /sturm]			| Stellt das Wetter auf Sturm
+/vanish [Alias: /v]  			  | Macht dich unsichtbar für normale Spieler
   
 ## Weitere Features:
 Bei ncht vorhandenem Komando wird eine neue Nachricht ausgegeben (Nicht: Command not existing), in der der falsche Befehl enthalten ist: [BeaconEssentials] Der Befehl [/eingabe] existiert nicht!
