@@ -17,7 +17,8 @@ Plugin Download auf SpigotMC: https://www.spigotmc.org/resources/%E2%9C%AF-beaco
 /midnight [Alias: /mitternacht]  
 /noon [Alias: /mittag]  
 /spawn
-/setspawn  
+/setspawn
+/vanish [Alias: /v]  
   
 ## Weitere Features:
 Bei ncht vorhandenem Komando wird eine neue Nachricht ausgegeben (Nicht: Command not existing), in der der falsche Befehl enthalten ist: [BeaconEssentials] Der Befehl [/eingabe] existiert nicht!
@@ -30,6 +31,7 @@ Außerdem das Highlight: Du kannst Spielern einen Anzeigenamen festlegen, indem 
 - beacon.beaconessentials.heal              | Du kannst dich und andere heilen
 - beacon.beaconessentials.feed              | Du kannst dich und andere sättigen
 - beacon.beaconessentials.spawn.set         | Du kannst den Spawn setzen
+- beacon.beaconessentials.vanish            | Du kannst dich für normale Benutzer unsichtbar machen.
 
 ## Rangberechtigungen:
 - beacon.beaconessentials.rang.owner        | Du erhältst den Owner-Rang in der Tabliste und im Chat
