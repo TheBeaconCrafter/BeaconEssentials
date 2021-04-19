@@ -1,0 +1,21 @@
+# | \  |---    /\    /--   /-----\   |\    |
+# |>   |---   |--|   |     |     |   |  \  |
+# | /  |---  /    \  \__   \-----/   |    \|
+#
+# by TheBeaconCrafter (Config Version 1.0) THIS IS NOT FINAL! REPORT BUGS USING SPIGOTMC!
+
+# ***IMPORTANT: This Config does not work at the time! Support will be dropped in next update!***
+# ***IMPORTANT: This Config does not work at the time! Support will be dropped in next update!***
+# ***IMPORTANT: This Config does not work at the time! Support will be dropped in next update!***
+# ***IMPORTANT: This Config does not work at the time! Support will be dropped in next update!***
+# ***IMPORTANT: This Config does not work at the time! Support will be dropped in next update!***
+
+# Don't touch anything in front of the ":" please! It might break the plugin...
+
+prefix: "§c[§4§lBeacon§6§lEssentials§c]§7§o "  #This is the Prefix the Plugin will use
+nopermsmsg: "§cDu darfst diesen Befehl nicht nutzen!" #This is the No-Permissions Message
+indevmsg: "§cDieses Feature ist noch in der Entwicklung!" #Message for Features in Development
+
+# More will be added in the next updates!
+
+# 16.04.2021 (Config Version 1.0) by TheBeaconCrafter
