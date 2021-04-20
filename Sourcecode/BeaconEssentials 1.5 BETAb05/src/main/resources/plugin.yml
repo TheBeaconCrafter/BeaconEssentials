@@ -1,0 +1,290 @@
+name: BeaconEssentials
+version: ${project.version}
+main: dev.thebeaconcrafter.beaconessentials.Beaconessentials
+api-version: 1.16
+authors: [ TheBeaconCrafter ]
+description: Ein Essentials-Plugin, welches dir viel Arbeit abnimmt.
+website: thebeaconcrafter.tk
+
+commands:
+  heal:
+    description: Heilt dich.
+    aliases: [healme]
+  fly:
+    description: Ändert deinen Flugmodus.
+  spawn:
+    aliases: [setspawn]
+    description: Teleportiert dich zum Spawn.
+  vanish:
+    aliases: [v]
+    description: Macht dich unsichtbar.
+  help:
+    aliases: [helpme]
+    description: Ruft die Hilfeoptionen auf.
+  noon:
+    aliases: [mittag]
+    description: Stellt die Zeit auf Mittag.
+  day:
+    aliases: [tag]
+    description: Stellt die Zeit auf Tag.
+  night:
+    aliases: [nacht]
+    description: Stellt die Zeit auf Nacht.
+  midnight:
+    aliases: [mitternacht]
+    description: Stellt die Zeit auf Mitternacht.
+  gamemode:
+    aliases: [gm]
+    description: Ändert deinen Spielmodus.
+  beaconessentials:
+    aliases:
+      - ess
+      - beaconess
+      - essentials
+      - bess
+      - beacon
+      - be
+    description: Ruft die Plugin-Informationen auf.
+  rain:
+    aliases: [regen]
+    description: Lässt es regnen.
+  storm:
+    aliases: [sturm]
+    description: Lässt es stürmen.
+  sun:
+    aliases: [sonne]
+    description: Lässt die Sonne scheinen.
+  update:
+    aliases: [upd]
+    description: Prüft auf Updates.
+  enderchest:
+    aliases:
+      - ec
+      - echest
+      - enderch
+    description: Öffnet deine Enderchest auf Komando.
+  workbench:
+    aliases:
+      - wbench
+      - craft
+      - crafting
+      - craftingbench
+      - wb
+    description: Du kannst eine Werkbank auf Komando öffnen.
+  enchant:
+    aliases:
+      - enchanter
+      - enchanting
+      - ench
+    description: Du kannst auf Komando den Verzauberungstisch öffnen!
+  message:
+    aliases:
+      - msg
+      - tell
+    description: Du kannst anderen Leuten schreiben.
+  warp:
+    description: Du kannst dich zu warps teleportieren und sie erstellen.
+  beaconreload:
+    aliases:
+      - beaconrl
+      - rlbeacon
+      - beaconessreload
+      - reloadbeacon
+    description: Du kannst BeaconEssentials neu laden.
+  clearlag:
+    aliases:
+      - clearl
+      - lagclear
+      - clag
+      - cl
+    description: Du entfernst alle Entitys, um Lags zu verhindern.
+  killmonster:
+    aliases:
+      - killallmonster
+      - killallhostile
+      - killhostile
+    description: Du entfernst alle hostile Mobs (Monster).
+  killmobs:
+    aliases:
+      - killallmobs
+      - killallm
+    description: Du entfernst alle Mobs (freundlich und feindlich).
+  killitems:
+    aliases:
+      - killallitems
+      - removeitems
+      - rmitems
+      - itemrm
+    description: Du entfernst alle Items, die auf dem Boden liegen.
+  invsee:
+    aliases:
+      - invs
+      - invlook
+      - seeinv
+    description: Du kannst das Inventar von anderen Spielern sehen.
+  globalmute:
+    aliases:
+      - gmute
+      - togglechat
+      - togglemute
+      - tchat
+    description: Du kannst den Chat für normale Spieler deaktivieren.
+  broadcast:
+    aliases:
+      - bc
+      - alert
+      - broadc
+      - cast
+      - ansage
+      - nachricht
+      - rundruf
+    description: Du kannst einen Rundruf machen.
+
+permissions:
+  beacon.beaconessentials.heal:
+    description: Mit dieser Berechtigung kannst du /heal nutzen.
+    default: op
+  beacon.beaconessentials.fly:
+    description: Mit dieser Berechtigung kannst du /fly nutzen.
+    default: op
+  beacon.beaconessentials.spawn.set:
+    description: Du kannst den Spawn setzen.
+    default: op
+  beacon.beaconessentials.vanish:
+    description: Du kannst dich in den Vanish versetzen.
+    default: op
+  beacon.rang.owner:
+    description: Du erhältst den Owner-Rang in der Tablist und im Chat.
+    default: op
+  beacon.rang.supporter:
+    description: Du erhältst den Supporter-Rang in der Tablist und im Chat.
+    default: not op
+  beacon.rang.premium:
+    description: Du erhältst den Premium-Rang in der Tablist und im Chat.
+    default: not op
+  beacon.rang.diamond:
+    description: Du erhältst den Diamond-Rang in der Tablist und im Chat.
+    default: not op
+  beacon.rang.vip:
+    description: Du erhältst den VIP-Rang in der Tablist und im Chat.
+    default: not op
+  beacon.rang.vipplus:
+    description: Du erhältst den VIP+-Rang in der Tablist und im Chat.
+    default: not op
+  beacon.rang.moderator:
+    description: Du erhältst den Moderator-Rang in der Tablist und im Chat.
+    default: not op
+  beacon.rang.admin:
+    description: Du erhältst den Admin-Rang in der Tablist und im Chat.
+    default: not op
+  beacon.beaconessentials.time:
+    description: Du kannst die Zeit umstellen.
+    default: op
+  beacon.beaconessentials.gamemode:
+    description: Du kannst deinen Spielmodus umstellen.
+    default: op
+  beacon.beaconessentials.weather:
+    description: Du kannst das Wetter umstellen.
+    default: op
+  beacon.beaconessentials.ec:
+    description: Du kannst per Komando auf deine Enderchest zugreifen.
+    default: op
+  beacon.beaconessentials.wb:
+    description: Du kannst das /wb Komando nutzen.
+    default: op
+  beacon.beaconessentials.enchant:
+    description: Du kannst per Komando den Verzauberungstisch öffnen!
+    default: op
+  beacon.reload:
+    description: Du kannst das Plugin neu laden.
+    default: op
+  beacon.block.break:
+    description: Du darfst abbauen.
+    default: not op
+  beacon.block.place:
+    description: Du darfst blöcke platzieren.
+    default: not op
+  beacon.beaconessentials.msg.write:
+    description: Du darfst Nachrichten an andere Spieler schreiben.
+    default: not op
+  beacon.beaconessentials.warp.manage:
+    description: Du darfst Warps verwalten.
+    default: op
+  beacon.beaconessentials.info:
+    description: Du kannst Informationen über das Plugin einsehen
+    default: op
+  beacon.color.black:
+    description: Du darfst schwarz schreiben
+    default: op
+  beacon.color.darkblue:
+    description: Du darfst dunkelblau schreiben
+    default: op
+  beacon.color.darkgreen:
+    description: Du darfst dunkelgrün schreiben
+    default: op
+  beacon.color.darkturquoise:
+    description: Du darfst dunkelgrün schreiben
+    default: op
+  beacon.color.darkred:
+    description: Du darfst dunkelgrün schreiben
+    default: op
+  beacon.color.purple:
+    description: Du darfst dunkelgrün schreiben
+    default: op
+  beacon.color.gold:
+    description: Du darfst dunkelgrün schreiben
+    default: op
+  beacon.color.gray:
+    description: Du darfst dunkelgrün schreiben
+    default: op
+  beacon.color.darkgray:
+    description: Du darfst dunkelgrün schreiben
+    default: op
+  beacon.color.blue:
+    description: Du darfst dunkelgrün schreiben
+    default: op
+  beacon.color.green:
+    description: Du darfst dunkelgrün schreiben
+    default: op
+  beacon.color.turquoise:
+    description: Du darfst dunkelgrün schreiben
+    default: op
+  beacon.color.red:
+    description: Du darfst dunkelgrün schreiben
+    default: op
+  beacon.color.pink:
+    description: Du darfst dunkelgrün schreiben
+    default: op
+  beacon.color.yellow:
+    description: Du darfst dunkelgrün schreiben
+    default: op
+  beacon.color.white:
+    description: Du darfst dunkelgrün schreiben
+    default: op
+  beacon.beaconessentials.clearlag:
+    description: Du darfst alle Entitys entfernen
+    default: op
+  beacon.beaconessentials.killmonster:
+    description: Du darfst alle Monster töten
+    default: op
+  beacon.beaconessentials.killmobs:
+    description: Du tötest alle Mobs.
+    default: op
+  beacon.beaconessentials.killitems:
+    description: Du entfernst alle auf dem Boden liegende Items.
+    default: op
+  beacon.beaconessentials.invsee:
+    description: Du darfst Inventar von anderen Spielern sehen.
+    default: op
+  beacon.beaconessentials.globalmute:
+    description: Du darfst den Globalmute aktivieren und deaktivieren.
+    default: op
+  beacon.beaconessentials.globalmute.ignore:
+    description: Du kannst trotz Globalmute schreiben
+    default: op
+  beacon.beaconessentials.spawn.deathtp:
+    description: Du wirst automatisch nach einem Tod zurück zum Spawn teleportiert
+    default: not op
+  beacon.beaconessentials.broadcast:
+    description: Du darfst einen Broadcast machen
+    default: op
